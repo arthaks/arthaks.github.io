@@ -4,5 +4,13 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+> 我是一个写Java web的码农，本科天坑生物学，为了吃口饭，毕业之后进入了写代码这条不归路。因为Java 入门简单，工作机会相对较多(毕业的时候)，所以学习了Java。从小公司的加班一点一点开始，到后来有机会进入了美团，有幸在所谓的大厂里面学习了几年之后，厌倦了卷文档、卷嫡系的文化，没有选择活水，没有选择跳去别的大厂。来了一个相对平衡的小公司，目前来看，是正确的。擅长写bug
+{: .prompt-info }
+
+## 我主要写什么？
+- 个人生活思考
+- 一些Java后端工程方面的经验
+- AI相关的学习记录
+
+## 为什么写这个博客？
+工作十年了，想留下一些文字在世界上，希望孩子将来能看到，了解了解我
