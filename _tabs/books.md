@@ -11,10 +11,9 @@ title: 书架
   <!-- 电子书卡片 1 -->
   <div class="book-card">
     <div class="book-card-cover">
-      <div class="book-cover-inner">
-        <span class="book-cover-title">Anthropic Engineering</span>
-        <span class="book-cover-subtitle">学习指南</span>
-      </div>
+      <a href="/assets/img/books/anthropic-engineering-cover-full.jpg" class="popup">
+        <img src="/assets/img/books/anthropic-engineering-cover.jpg" alt="Anthropic Engineering 学习指南" class="book-cover-img" />
+      </a>
     </div>
     <div class="book-card-content">
       <h3 class="book-title">《Anthropic Engineering 学习指南》</h3>
@@ -81,11 +80,12 @@ title: 书架
   justify-content: center;
   width: 160px;
   min-height: 220px;
-  padding: 1rem;
+  padding: 0;
   background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
   color: #ffffff;
   position: relative;
   box-shadow: inset -5px 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }
 
 .book-cover-inner {
@@ -99,6 +99,13 @@ title: 书架
   height: 100%;
   width: 100%;
   justify-content: center;
+}
+
+.book-cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .book-cover-title {
@@ -208,6 +215,18 @@ title: 书架
 
 .book-card-placeholder .book-card-cover {
   background: linear-gradient(135deg, #4b5563 0%, #1f2937 100%);
+}
+
+/* 封面点击放大 */
+.book-card-cover .popup {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+}
+
+.book-cover-img {
+  cursor: zoom-in;
 }
 
 @media (max-width: 576px) {
