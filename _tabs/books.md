@@ -219,13 +219,19 @@ title: 书架
 
 /* 封面点击放大 */
 .book-card-cover .popup {
-  display: block;
-  width: 100%;
-  height: 100%;
+  display: flex !important;
+  width: 100% !important;
+  height: 100% !important;
   margin: 0 !important;
+  justify-content: center;
+  align-items: center;
 }
 
 .book-cover-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
   cursor: zoom-in;
 }
 
