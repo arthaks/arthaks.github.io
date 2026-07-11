@@ -11,9 +11,9 @@ title: 书架
   <!-- 电子书卡片 1 -->
   <div class="book-card">
     <div class="book-card-cover">
-      <a href="/assets/img/books/anthropic-engineering-cover-full.jpg" class="popup">
-        <img src="/assets/img/books/anthropic-engineering-cover.jpg" alt="Anthropic Engineering 学习指南" class="book-cover-img" />
-      </a>
+      <a href="/assets/img/books/anthropic-engineering-cover-full.jpg"
+         class="popup book-cover-link"
+         aria-label="查看《Anthropic Engineering 学习指南》封面大图"></a>
     </div>
     <div class="book-card-content">
       <h3 class="book-title">《Anthropic Engineering 学习指南》</h3>
@@ -101,11 +101,13 @@ title: 书架
   justify-content: center;
 }
 
-.book-cover-img {
+.book-cover-link {
+  display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  display: block;
+  min-height: 220px;
+  background: url('/assets/img/books/anthropic-engineering-cover.jpg') center / cover no-repeat;
+  cursor: zoom-in;
 }
 
 .book-cover-title {
@@ -217,22 +219,9 @@ title: 书架
   background: linear-gradient(135deg, #4b5563 0%, #1f2937 100%);
 }
 
-/* 封面点击放大 */
-.book-card-cover .popup {
-  display: flex !important;
-  width: 100% !important;
-  height: 100% !important;
+/* 封面点击放大。使用背景图可避免 Chirpy 再次包装 <img>，造成嵌套链接和缩略图只显示一半。 */
+.book-card-cover .book-cover-link {
   margin: 0 !important;
-  justify-content: center;
-  align-items: center;
-}
-
-.book-cover-img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  object-position: center !important;
-  cursor: zoom-in;
 }
 
 @media (max-width: 576px) {
@@ -241,8 +230,13 @@ title: 书架
   }
   .book-card-cover {
     width: 100%;
-    min-height: 140px;
-    padding: 1.5rem;
+    min-height: 280px;
+    padding: 0;
+  }
+  .book-cover-link {
+    min-height: 280px;
+    background-size: contain;
+    background-color: #0f172a;
   }
 }
 </style>
