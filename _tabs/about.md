@@ -32,3 +32,27 @@ order: 4
 一方面是给自己——记录技术成长的轨迹，逼自己把"觉得懂了"的东西真正想清楚、写明白。
 
 另一方面是给孩子——希望他将来能通过这些文字，了解他老爸是怎样思考、怎样工作、怎样生活的。
+
+## 技术栈与关注方向
+
+- Java、后端架构与工程实践
+- AI Agent、LLM 应用与 Prompt Engineering
+- Coding Agent 与研发工作流集成
+- Linux、Docker、CI/CD 与开发者工具
+
+## 联系与订阅
+
+- GitHub：[arthaks](https://github.com/arthaks)
+- X：[octo_clay](https://x.com/octo_clay)
+- Email：[octo_clay@proton.me](mailto:octo_clay@proton.me)
+- RSS：[订阅本站更新](/feed.xml)
+
+如果文章中的内容有疏漏，欢迎在文章评论区交流，或通过以上方式联系我。
+
+## 内容与隐私说明
+
+除特别说明外，博客原创内容版权归作者所有。转载或引用时，请注明作者和原文链接。
+
+本站使用 Giscus 提供评论功能。评论需要通过 GitHub 登录，相关数据由 GitHub Discussions 与 Giscus 处理。本站未来如启用访问统计，将优先选择隐私友好的方案，并在此处同步说明。
+
+本站由 [Jekyll](https://jekyllrb.com/) 与 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 构建，托管于 GitHub Pages。
