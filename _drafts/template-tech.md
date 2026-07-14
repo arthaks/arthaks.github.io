@@ -7,6 +7,14 @@ math: true
 mermaid: true
 ---
 
+<!--
+动态 Draw.io SVG 架构图请使用链接图片语法，避免 Chirpy GLightbox 放大时与 SVG 动画叠加产生闪动：
+
+[![架构图](/assets/img/YYYY-MM-DD/diagram.drawio.svg)](/assets/img/YYYY-MM-DD/diagram.drawio.svg){: target="_blank" rel="noopener" }
+
+点击架构图可在新标签页打开 SVG 原图，并使用浏览器缩放查看。
+-->
+
 ## 📝 核心内容
 <!-- 记录技术点、方案或 AI 学习心得 -->
 

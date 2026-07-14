@@ -100,7 +100,40 @@ categories: [Tech, Life]
 
 ---
 
+## 动态 SVG 架构图发布规范
+
+生成包含动态箭头的 Draw.io 架构图时，优先发布 SVG，并将资源放在按日期划分的目录：
+
+```text
+assets/img/YYYY-MM-DD/<diagram>.drawio.svg
+```
+
+Chirpy 会将普通 Markdown 图片自动包装为带 `popup` 类的 GLightbox 链接。点击放大时，弹层会重新加载 SVG，并同时执行弹层缩放与 SVG 内部 CSS 动画，可能产生闪动。因此，动态 SVG 不使用裸图片语法：
+
+```markdown
+![架构图](/assets/img/YYYY-MM-DD/diagram.drawio.svg)
+```
+
+统一使用“图片链接到 SVG 原图”的写法，并在新标签页打开：
+
+```markdown
+[![架构图](/assets/img/YYYY-MM-DD/diagram.drawio.svg)](/assets/img/YYYY-MM-DD/diagram.drawio.svg){: target="_blank" rel="noopener" }
+
+点击架构图可在新标签页打开 SVG 原图，并使用浏览器缩放查看。
+```
+
+该写法保留文章内的 SVG 动画，同时绕过 GLightbox。生成文章后执行以下检查：
+
+1. 使用 `bash tools/run.sh -d` 启动包含草稿的本地预览。
+2. 确认文章页面和 SVG 资源均返回 HTTP 200。
+3. 确认 SVG 的响应类型为 `image/svg+xml`。
+4. 确认生成的图片链接包含 `target="_blank"` 和 `rel="noopener"`。
+5. 确认图片附近不包含 `class="popup"`。
+6. 动态 SVG 应使用 CSS 动画，发布文件中避免包含不必要的 JavaScript。
+
+如果 SVG 文件较大或文章首屏性能受影响，使用静态 PNG 作为文章内预览，并将 PNG 链接到动态 SVG 原图。只有需要文章内独立交互、平移或缩放时，才考虑使用 `<object>` 或 `<iframe>`。
+
 ## 🛠 开发技巧
 - **搜索优化**: 每次推送到 GitHub 时，Actions 会自动构建并更新搜索索引。
-- **图片处理**: 建议将文章图片放在 `assets/img/` 下，并在 Markdown 中引用。
+- **图片处理**: 建议将文章图片放在 `assets/img/` 下，并在 Markdown 中引用。动态 SVG 遵循上面的专用发布规范。
 - **PWA**: 该项目已启用 PWA，支持离线访问。
