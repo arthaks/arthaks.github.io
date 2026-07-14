@@ -1,8 +1,8 @@
 ---
-title: "Linux 下轻量化运行企业微信：Docker 与无边框 RDP 方案"
+title: "通用技术沉淀 | 第0篇：Linux下轻量化运行企业微信"
 date: 2026-06-25 15:55:00 +0800
-categories: [Tech]
-tags: [Linux, Docker, RDP, WeCom]
+categories: [Tech, 通用技术沉淀]
+tags: [通用技术沉淀, Linux, Docker, RDP, WeCom]
 math: false
 mermaid: false
 ---
