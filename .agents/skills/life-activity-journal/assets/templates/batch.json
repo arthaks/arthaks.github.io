@@ -1,0 +1,18 @@
+{
+  "year": 2026,
+  "records": [
+    {
+      "date": "2026-07-16",
+      "kind": "sport",
+      "title": "泳池游泳",
+      "emoji": "🏊",
+      "metrics": [
+        {"value": "1,000 米", "label": "距离"},
+        {"value": "33:23", "label": "时长"},
+        {"value": "474 kcal", "label": "活动消耗"},
+        {"value": "3'20\"", "label": "平均配速"},
+        {"value": "蛙泳", "label": "泳姿"}
+      ]
+    }
+  ]
+}

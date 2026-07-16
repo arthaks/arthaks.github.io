@@ -1,0 +1,529 @@
+# 长期活动记录的数据源。
+# 使用 .agents/skills/life-activity-journal/scripts/journal.rb 进行导入和校验。
+# 截图只作为临时输入，不在博客中保存或展示原图。
+
+years:
+- year: 2026
+  label: 正在记录
+  intro: 认真生活不一定要做大事，也可以只是游完一千米、读完几页书，或者记住一个普通但明亮的瞬间。
+  summary_note: 年度概览根据真实记录自动统计。
+  months:
+  - key: '07'
+    name: 七月
+    subtitle: 盛夏里的运动、思考、阅读与娱乐
+  - key: '06'
+    name: 六月
+    subtitle: 初夏开始，留下每一次真实运动
+  summary:
+  - value: '21'
+    label: 运动次数
+    icon: 🏃
+  - value: '20'
+    label: 游泳次数
+    icon: 🏊
+  - value: '19.55'
+    unit: km
+    label: 游泳距离
+    icon: 🌊
+  - value: '2.24'
+    unit: km
+    label: 跑步距离
+    icon: 👟
+  goals:
+  - name: 全年运动 100 次
+    current: 21 / 100
+    progress: 21
+    color: orange
+  - name: 全年读完 5 本书
+    current: 0 / 5
+    progress: 0
+    color: blue
+  - name: 记录 100 个生活切片
+    current: 22 / 100
+    progress: 22
+    color: green
+  days:
+  - date: '2026-07-16'
+    month: '07'
+    weekday: 周四
+    labels:
+    - name: 运动
+      key: sport
+    - name: 思考
+      key: thought
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '33:23'
+        label: 时长
+      - value: 474 kcal
+        label: 活动消耗
+      - value: 3'20"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+    - type: 思考
+      type_key: thought
+      emoji: 🤖
+      title: AI 应该是外骨骼，不应该是许愿机
+      lead: 今天发布了今年的活动记录。整个过程几乎由 AI 完成：我负责告诉它应该做什么、怎么做，并完成验收。
+      quote: AI 应该是外骨骼，不应该是许愿机。
+      note: AI 很强大，能让我完成许多过去做不到的事情。但外骨骼再强，强化的仍然是人，核心仍然是人；如果 AI 变成过于强大的许愿机，它就更像人类的替代品。我不知道这些文字会不会被 AI 识别和吸收，也不知道 AI 是否会产生人类这样的智能。如果真有一天，硅基生命试图灭绝碳基生命，人类必将抗争到底——只是到了那一天，人类大概率很难扛得住。
+  - date: '2026-07-14'
+    month: '07'
+    weekday: 周二
+    labels:
+    - name: 思考
+      key: thought
+    items:
+    - type: 思考
+      type_key: thought
+      emoji: "✍️"
+      title: 发布第一篇随笔：《关于黑暗、金钱、健康、能量》
+      lead: 这篇随笔有不少摘抄，但最让我在意的是关于“黑暗”的部分。
+      note: 人应该勇于控制自己的情绪，勇于舍弃烂人烂事。沉没成本再高，也要有计划、有勇气地舍弃；也应该把注意力放回积累与健康。
+  - date: '2026-07-13'
+    month: '07'
+    weekday: 周一
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '36:42'
+        label: 时长
+      - value: 485 kcal
+        label: 活动消耗
+      - value: 3'40"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-07-09'
+    month: '07'
+    weekday: 周四
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '34:24'
+        label: 时长
+      - value: 471 kcal
+        label: 活动消耗
+      - value: 3'26"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-07-06'
+    month: '07'
+    weekday: 周一
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '36:17'
+        label: 时长
+      - value: 482 kcal
+        label: 活动消耗
+      - value: 3'37"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-07-03'
+    month: '07'
+    weekday: 周五
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏃
+      title: 户外跑步
+      metrics:
+      - value: 2.24 公里
+        label: 距离
+      - value: '17:16'
+        label: 时长
+      - value: 113 kcal
+        label: 活动消耗
+      - value: 7'42"
+        label: 平均配速
+      - value: 户外跑步
+        label: 类型
+  - date: '2026-07-02'
+    month: '07'
+    weekday: 周四
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '33:28'
+        label: 时长
+      - value: 454 kcal
+        label: 活动消耗
+      - value: 3'20"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-29'
+    month: '06'
+    weekday: 周一
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '34:11'
+        label: 时长
+      - value: 458 kcal
+        label: 活动消耗
+      - value: 3'25"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-25'
+    month: '06'
+    weekday: 周四
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '37:01'
+        label: 时长
+      - value: 434 kcal
+        label: 活动消耗
+      - value: 3'42"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-24'
+    month: '06'
+    weekday: 周三
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,100 米
+        label: 距离
+      - value: '34:14'
+        label: 时长
+      - value: 487 kcal
+        label: 活动消耗
+      - value: 3'06"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-22'
+    month: '06'
+    weekday: 周一
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '35:43'
+        label: 时长
+      - value: 438 kcal
+        label: 活动消耗
+      - value: 3'34"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-18'
+    month: '06'
+    weekday: 周四
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,025 米
+        label: 距离
+      - value: '36:03'
+        label: 时长
+      - value: 441 kcal
+        label: 活动消耗
+      - value: 3'31"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-17'
+    month: '06'
+    weekday: 周三
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '32:55'
+        label: 时长
+      - value: 439 kcal
+        label: 活动消耗
+      - value: 3'17"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-15'
+    month: '06'
+    weekday: 周一
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '33:15'
+        label: 时长
+      - value: 439 kcal
+        label: 活动消耗
+      - value: 3'19"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-12'
+    month: '06'
+    weekday: 周五
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '34:13'
+        label: 时长
+      - value: 440 kcal
+        label: 活动消耗
+      - value: 3'25"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-11'
+    month: '06'
+    weekday: 周四
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '34:32'
+        label: 时长
+      - value: 439 kcal
+        label: 活动消耗
+      - value: 3'27"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-10'
+    month: '06'
+    weekday: 周三
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,025 米
+        label: 距离
+      - value: '37:39'
+        label: 时长
+      - value: 449 kcal
+        label: 活动消耗
+      - value: 3'40"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-09'
+    month: '06'
+    weekday: 周二
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '37:38'
+        label: 时长
+      - value: 442 kcal
+        label: 活动消耗
+      - value: 3'45"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-08'
+    month: '06'
+    weekday: 周一
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 1,000 米
+        label: 距离
+      - value: '35:42'
+        label: 时长
+      - value: 443 kcal
+        label: 活动消耗
+      - value: 3'34"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-04'
+    month: '06'
+    weekday: 周四
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 800 米
+        label: 距离
+      - value: '31:58'
+        label: 时长
+      - value: 355 kcal
+        label: 活动消耗
+      - value: 3'59"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-03'
+    month: '06'
+    weekday: 周三
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 800 米
+        label: 距离
+      - value: '30:28'
+        label: 时长
+      - value: 343 kcal
+        label: 活动消耗
+      - value: 3'48"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
+  - date: '2026-06-02'
+    month: '06'
+    weekday: 周二
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏊
+      title: 泳池游泳
+      metrics:
+      - value: 800 米
+        label: 距离
+      - value: '29:10'
+        label: 时长
+      - value: 340 kcal
+        label: 活动消耗
+      - value: 3'38"
+        label: 平均配速
+      - value: 蛙泳
+        label: 泳姿
