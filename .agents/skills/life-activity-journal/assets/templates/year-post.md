@@ -1,7 +1,7 @@
 ---
 title: "__YEAR__ 生活轨迹｜运动 · 思考 · 阅读 · 娱乐"
 date: __DATE__
-categories: [Life]
+categories: [Life, 记录]
 tags: [运动, 思考, 阅读, 娱乐, 生活记录, 长期主义]
 toc: false
 comments: false

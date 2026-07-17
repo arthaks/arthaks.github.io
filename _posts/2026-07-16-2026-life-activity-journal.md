@@ -1,7 +1,7 @@
 ---
 title: "2026 生活轨迹｜运动 · 思考 · 阅读 · 娱乐"
 date: 2026-07-16 20:51:54 +0800
-categories: [Life]
+categories: [Life, 记录]
 tags: [运动, 思考, 阅读, 娱乐, 生活记录, 长期主义]
 toc: false
 comments: false
