@@ -15,7 +15,7 @@ years:
     name: 六月
     subtitle: 初夏开始，留下每一次真实运动
   summary:
-  - value: '21'
+  - value: '24'
     label: 运动次数
     icon: 🏃
   - value: '20'
@@ -25,24 +25,87 @@ years:
     unit: km
     label: 游泳距离
     icon: 🌊
-  - value: '2.24'
+  - value: '4.48'
     unit: km
     label: 跑步距离
     icon: 👟
   goals:
   - name: 全年运动 100 次
-    current: 21 / 100
-    progress: 21
+    current: 24 / 100
+    progress: 24
     color: orange
   - name: 全年读完 5 本书
     current: 0 / 5
     progress: 0
     color: blue
   - name: 记录 100 个生活切片
-    current: 22 / 100
-    progress: 22
+    current: 25 / 100
+    progress: 25
     color: green
   days:
+  - date: '2026-07-19'
+    month: '07'
+    weekday: 周日
+    labels:
+    - name: 运动
+      key: sport
+    - name: 思考
+      key: thought
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏀
+      title: 打篮球
+      note: 出汗非常多，体感很好，但不慎崴脚。
+      metrics:
+      - value: 约 2 小时
+        label: 时长
+    - type: 思考
+      type_key: thought
+      emoji: 💭
+      title: 团队对抗里的纯粹
+      lead: 从小学六年级开始看篮球，初中开始打球，一直玩到大学毕业。毕业后因为工作加班，没有时间和心情，加上喜欢的球星一个个退役，便再也没摸过篮球。
+      note: 这次重新打球特别开心，和游泳、跑步、走路、打羽毛球的开心都不一样。团队对抗里有对抗、有团队、有进步、有失败，唯独没有钩心斗角；注意力在瞬间被完全占用，让这个下午显得纯粹而舒服。
+  - date: '2026-07-18'
+    month: '07'
+    weekday: 周六
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🏃
+      title: 户外跑步
+      metrics:
+      - value: 2.24 公里
+        label: 距离
+      - value: '00:16:43'
+        label: 时长
+      - value: 112 kcal
+        label: 活动消耗
+      - value: 7'28"
+        label: 平均配速
+  - date: '2026-07-17'
+    month: '07'
+    weekday: 周五
+    labels:
+    - name: 运动
+      key: sport
+    items:
+    - type: 运动
+      type_key: sport
+      emoji: 🚶
+      title: 健走
+      metrics:
+      - value: 3.02 公里
+        label: 距离
+      - value: '00:50:56'
+        label: 时长
+      - value: 165 kcal
+        label: 活动消耗
+      - value: 16'50"
+        label: 平均配速
   - date: '2026-07-16'
     month: '07'
     weekday: 周四
