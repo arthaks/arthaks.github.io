@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blog Maintainer"
+  short_description: "Maintain and validate the Jekyll blog safely"
+  default_prompt: "Use $blog-maintainer to update and validate content in my Jekyll blog."
