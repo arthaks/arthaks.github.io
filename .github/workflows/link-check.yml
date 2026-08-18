@@ -31,7 +31,7 @@ jobs:
 
       - name: Create or update issue
         if: failure()
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue-from-file@v6
         with:
           title: "定时链接检查发现失效链接"
           content-filepath: ./lychee/out.md
